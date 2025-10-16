@@ -1,25 +1,18 @@
-My Personal Diary App
+# My Personal Diary App
 
-This is a lightweight full-stack diary application. It has a React-based frontend and an Express.js backend. You can run it locally or using Docker for a consistent setup.
+A lightweight full-stack diary application with a React frontend and Express.js backend. The app allows you to maintain personal diary entries in a clean, user-friendly interface. You can run it locally or with Docker for a consistent setup.
 
-Features
+## Features
+- Add, view, and delete diary entries.
+- Minimalist and intuitive design for easy use.
+- Stores entries in a simple JSON file for easy local testing and demonstration.
 
-Add, view, and delete diary entries.
+## Running Locally
+Start the backend first to serve the API, then launch the frontend to interact with the app in your browser.
 
-Clean and user-friendly interface.
+## Using Docker
+Optionally, you can use Docker and docker-compose to run both the frontend and backend together in a consistent environment.
 
-Stores data in a simple JSON file for easy testing and demonstration.
-
-Running Locally
-
-For local development, start the backend first and then the frontend. The backend serves the API, while the frontend provides the user interface in your browser.
-
-Using Docker
-
-You can also run the app using Docker and docker-compose for a consistent environment. This allows both frontend and backend to run together without manual setup.
-
-Notes
-
-All diary entries are saved in a JSON file.
-
-Designed for quick testing and personal use.
+## Notes
+- Diary entries are stored in a JSON file.
+- Built for quick testing, demonstration, and personal use.
